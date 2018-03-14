@@ -10,6 +10,7 @@
 
 #include <Background.h>
 #include <Bonus.h>
+#include <Boss.h>
 #include <Brick.h>
 #include <Bunker.h>
 #include <Camera.h>			// Header File class Camera
@@ -51,6 +52,8 @@ CCharacter* CSICharactersFactory::createNewCharacter(int Type, int subType)
 	case  CHARS_BONUS:				CAux = new CBonus();
 		break;
 	case  CHARS_BONUS_MNGR:			CAux = new CBonusManager();
+		break;
+	case  CHARS_BOSS:		    	CAux = new CBoss();
 		break;
 	case  CHARS_BRICK:				CAux = new CBrick();
 		break;

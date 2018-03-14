@@ -345,6 +345,33 @@ Text:
 End tag: CHARACTER
 Text: 
 
+    
+Start tag: CHARACTER
+Text: 
+        
+Start tag: NAME
+Text: BOSS
+End tag: NAME
+Text: 
+        
+Start tag: EXPLOSION
+Text: 500
+End tag: EXPLOSION
+Text: 
+        
+Start tag: HEALTH
+Text: 20
+End tag: HEALTH
+Text: 
+        
+Start tag: MESH
+Text: boss.3ds
+End tag: MESH
+Text: 
+    
+End tag: CHARACTER
+Text: 
+
 	
 Start tag: CHARACTER
 Text: 
@@ -634,6 +661,11 @@ End tag: COLLIDED
 Text: 
             
 Start tag: COLLIDED
+Text: BOSS
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
 Text: SUPPLYSHIP
 End tag: COLLIDED
 Text: 
@@ -677,6 +709,11 @@ Text:
             
 Start tag: COLLIDED
 Text: SHIP
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: BOSS
 End tag: COLLIDED
 Text: 
             
@@ -775,6 +812,11 @@ End tag: COLLIDED
 Text: 
             
 Start tag: COLLIDED
+Text: BOSS
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
 Text: SHOOT
 End tag: COLLIDED
 Text: 
@@ -822,6 +864,11 @@ End tag: COLLIDED
 Text: 
             
 Start tag: COLLIDED
+Text: BOSS
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
 Text: SHOOT
 End tag: COLLIDED
 Text: 
@@ -865,6 +912,11 @@ Text:
             
 Start tag: COLLIDED
 Text: SHIP
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: BOSS
 End tag: COLLIDED
 Text: 
             
@@ -922,6 +974,11 @@ Text:
             
 Start tag: COLLIDED
 Text: SHIP
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: BOSS
 End tag: COLLIDED
 Text: 
             
@@ -981,6 +1038,48 @@ Text:
             
 Start tag: CHARACTER
 Text: SUPPLYSHIP
+End tag: CHARACTER
+Text: 
+            
+Start tag: COLLIDED
+Text: BRICK
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: BUNKER
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: LASER
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: PLAYER
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: REACTOR
+End tag: COLLIDED
+Text: 
+            
+Start tag: COLLIDED
+Text: SHOOT
+End tag: COLLIDED
+Text: 
+        
+End tag: COLLISION
+Text: 
+
+        
+Start tag: COLLISION
+Text: 
+            
+Start tag: CHARACTER
+Text: BOSS
 End tag: CHARACTER
 Text: 
             

@@ -13,6 +13,7 @@ Prefix IP_: Default HTML Labels for all Parsers
 #include <SIGame.h>
 #include <GameSounds.h>
 
+#include <Boss.h>
 #include <Player.h>
 #include <Ship.h>
 #include <CircleShip.h>
@@ -119,6 +120,7 @@ extern CNavy	*Navy;
 */
 CCharacter*		defaultChar;
 CBonus*			defaultBonus;
+CBoss*			defaultBoss;
 CBunker*		defaultBunker;
 CBrick*			defaultBrick;
 CPlayer*		defaultPlayer;
@@ -169,6 +171,11 @@ void CInitializationParser::InitializeSounds2DefaultChar()
 	defaultBonus->SetSoundsAmount(CBN_MAX_SND);
 	defaultBonus->SetSound(SoundsManager.GetSound(CGS_SHIELD_SND), CBN_SHIELD_SND);
 	defaultBonus->SetSound(SoundsManager.GetSound(CGS_BONUS_SND), CBN_BONUS_SND);
+
+	//Default Supply Ship sounds initialization 
+	defaultBoss->SetSoundsAmount(CN_MAX_SND);
+	defaultBoss->SetSound(SoundsManager.GetSound(CGS_DESCEND_SND), CN_DESCEND_SND);		//Every time the whole navy drops down a little bit
+	defaultBoss->SetSound(SoundsManager.GetSound(CGS_EXPLOSION_SND), CN_EXPLOSION_SND);	//Every time any ship, supplyship, circleship,... burst out
 
 	//Default Bunker sounds initialization 
 	defaultBunker->SetSoundsAmount(CB_MAX_SOUND);
@@ -226,6 +233,7 @@ void CInitializationParser::InitializeDefaults()
 
 	defaultChar		=				CharacterPool->get(UGK_CHARACTER_UNKNOWN, UGKOBJM_NO_SUBTYPE);
 	defaultBonus	= (CBonus*)		CharacterPool->get(CHARS_BONUS, UGKOBJM_NO_SUBTYPE);
+	defaultBoss     = (CBoss*)		CharacterPool->get(CHARS_BOSS, CBS_NO_BOSS);
 	defaultBunker	= (CBunker*)	CharacterPool->get(CHARS_BUNKER, UGKOBJM_NO_SUBTYPE);
 	defaultBrick	= (CBrick*)		CharacterPool->get(CHARS_BRICK, UGKOBJM_NO_SUBTYPE);
 	defaultPlayer	= (CPlayer*)	CharacterPool->get(CHARS_PLAYER, UGKOBJM_NO_SUBTYPE);
@@ -263,6 +271,8 @@ void CInitializationParser::InitializeDefaults()
 	//NAVY
 	AssignTMG(Navy);
 
+	//BOSS
+	defaultBoss->Explosion.SubType = CE_SUPPLYSHIP_EXPLOSION;
 	//SHIP
 	defaultShip->Explosion.SubType	= CE_SHIP_EXPLOSION;
 	//SUPPLY SHIP
@@ -805,6 +815,16 @@ CTextureAnimation *aniAux;
 			{
 			case CHARS_BONUS:
 				 break;
+			case CHARS_BOSS:
+				if (MeshSemaphore[CHARS_BOSS])
+				{
+					MeshSemaphore[CHARS_BOSS] = false;
+					int ind = MeshesManager.AddModel(rText);
+					defaultBoss->IndMesh = ind;
+					defaultBoss->Mesh = MeshesManager.GetMesh(ind);
+					defaultBoss->SetMeshName(defaultBoss->Mesh->GetFileName());
+				}
+				break;
 			case CHARS_BRICK:
 				 break;
 			case CHARS_BUNKER:

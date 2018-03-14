@@ -162,6 +162,7 @@
     <ClInclude Include="include\Bonus.h" />
     <ClInclude Include="include\BonusManager.h" />
     <ClInclude Include="include\Boometer.h" />
+    <ClInclude Include="include\Boss.h" />
     <ClInclude Include="include\Brick.h" />
     <ClInclude Include="include\Bunker.h" />
     <ClInclude Include="include\CircleShip.h" />
@@ -224,6 +225,7 @@
     <ClCompile Include="src\Bonus.cpp" />
     <ClCompile Include="src\BonusManager.cpp" />
     <ClCompile Include="src\Boometer.cpp" />
+    <ClCompile Include="src\Boss.cpp" />
     <ClCompile Include="src\Brick.cpp" />
     <ClCompile Include="src\Bunker.cpp" />
     <ClCompile Include="src\CircleShip.cpp" />

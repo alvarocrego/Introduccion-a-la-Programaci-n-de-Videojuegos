@@ -23,6 +23,7 @@ typedef enum {
 	CHARS_BONUS,				///<For improving player strenght
 	CHARS_BONUS_MNGR,			///<For improving player strenght
 	CHARS_BOOMETER,
+	CHARS_BOSS,
 	CHARS_BRICK,				///<Pieces that make a bunker
 	CHARS_BUNKER,				///<A collection of bricks together in order to defend the player
 	CHARS_CIRCLESHIP,			///<Alien space ships that turns once and once again in clircles on the screen

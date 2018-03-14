@@ -6,6 +6,7 @@
 */
 
 #include <FSMParser.h>
+#include <Boss.h>
 #include <Ship.h>
 #include <CircleShip.h>
 #include <SupplyShip.h>
@@ -119,6 +120,7 @@ void CNavy::SetMeshes(CMeshesManager* MeshesManager)
 		if (NULL != C)
 		switch (C->Type)
 		{
+		case CHARS_BOSS:
 		case CHARS_SHIP:
 		case CHARS_SUPPLYSHIP:
 		case CHARS_CIRCLESHIP:
@@ -147,6 +149,7 @@ void CNavy::SetSounds2Ships()
 		if (NULL != C)
 		switch (C->Type)
 		{
+		case CHARS_BOSS:
 		case CHARS_SHIP:
 		case CHARS_SUPPLYSHIP:
 		case CHARS_CIRCLESHIP:
@@ -263,6 +266,9 @@ void CNavy::SetLocalTimers()
 		if (NULL != C)
 		switch (C->Type)
 		{
+		case CHARS_BOSS:
+			C->SetLocalTimers(CSS_MAX_TIMERS);
+			break;
 		case CHARS_SHIP:
 			C->SetLocalTimers(CS_MAX_TIMERS);
 			break;
@@ -296,6 +302,9 @@ void CNavy::SetRenderPeriod()
 		if (NULL != C)
 		switch (C->Type)
 		{
+		case CHARS_BOSS:
+			C->Timer[CS_RND_PERIOD].SetAlarm(RP);
+			break;
 		case CHARS_SHIP:
 			C->Timer[CS_RND_PERIOD].SetAlarm(RP);
 			break;

@@ -41,6 +41,7 @@ typedef enum {
 	CSH_PLAYER3D_CHEVRON,	///<Shoot sent by the player
 	CSH_AUX_LASER,			///<Shoot sent by the right and left laser auxiliar player ships
 	CSH_AUX_LASER_CHEVRON,	///<Shoot sent by the right and left laser auxiliar player ships when the player has a Chevron shooting
+	CSH_BOSS,
 	CSH_SHIP,				///<Shoot sent by a enemy ship. This kind of shoot has to be always after all player's shootings
 	CSH_SUPPLY_SHIP,		///<Shoot sent by a enemy Supply Ship. This kind of shoot has to be always after all player's shootings
 	CSH_CIRCLE_SHIP,		///<Shoot sent by a enemy Circle Ship. This kind of shoot has to be always after all player's shootings
