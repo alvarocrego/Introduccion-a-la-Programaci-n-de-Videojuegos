@@ -1,0 +1,9 @@
+﻿Secuencia de inserción de objeto en el quadtree 
+
+SetAABBInGlobalCoord(3 ejes) -> Actualiza CharAABB size -> UpdateAABB() CharAABB Min y Max -> UpdateAABBInColDetect() -> SetAABBInGlobalCoord()	AABBInGlobalCoord Min y Max =f(position y Size) -> CollisionDetector update
+
+MoveTo 
+
+Set Position attribute -> UpdateAABBInColDetect()
+
+Transformaciones posteriores 
