@@ -291,6 +291,11 @@ void CInitializationParser::InitializeDefaults()
 	for (unsigned int t = 0; t < CBN_MAX_TIMERS; t++)
 		defaultBonus->Timer[t].SetAlarm(BonusManager->Timer[t].GetAlarmPeriod());
 	
+	//BOSS
+	defaultBoss->SetLocalTimers(CBS_MAX_TIMERS);
+	defaultBoss->Timer[CBS_RND_PERIOD].SetAlarm(Navy->Timer[CBS_RND_PERIOD].GetAlarmPeriod());
+	defaultBoss->Timer[CBS_UPD_PERIOD].SetAlarm(Navy->Timer[CBS_UPD_PERIOD].GetAlarmPeriod());
+
 	//SHIP
 	defaultShip->SetLocalTimers(CS_MAX_TIMERS);
 	defaultShip->Timer[CS_RND_PERIOD].SetAlarm(Navy->Timer[CN_RND_PERIOD].GetAlarmPeriod());
@@ -596,6 +601,9 @@ void CInitializationParser::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bA
 				{
 				case CHARS_BONUS:
 						break;
+				case CHARS_BOSS:
+					defaultBoss->IndAnimation2D = AnimationsManager.Animations.size() - 1;
+					break;
 				case CHARS_BRICK:
 						break;
 				case CHARS_BUNKER:
@@ -712,6 +720,9 @@ CTextureAnimation *aniAux;
 			case CHARS_BONUS:
 				 defaultBonus->Hit_duration	= atof(UGKS_string2charstr(rText));
 				break;
+			case CHARS_BOSS:
+				defaultBoss->Hit_duration = atof(UGKS_string2charstr(rText));
+				break;
 			case CHARS_BRICK:
 				 defaultBrick->Hit_duration	= atof(UGKS_string2charstr(rText));
 				 break;
@@ -750,6 +761,9 @@ CTextureAnimation *aniAux;
 			{
 			case CHARS_BONUS:
 				 defaultBonus->Health	= atof(UGKS_string2charstr(rText));
+				break;
+			case CHARS_BOSS:
+				defaultBoss->Health		= atof(UGKS_string2charstr(rText));
 				break;
 			case CHARS_BRICK:
 				 defaultBrick->Health	= atof(UGKS_string2charstr(rText));
@@ -906,6 +920,7 @@ CTextureAnimation *aniAux;
 			switch (CharType)
 			{
 			case CHARS_BONUS:
+			case CHARS_BOSS:
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
@@ -1063,6 +1078,9 @@ CTextureAnimation *aniAux;
 			{
 			case CHARS_BONUS:
 				 break;
+			case CHARS_BOSS:
+				defaultBoss->IndTexture3D = TexturesManager.CreateTexture(rText);
+				break;
 			case CHARS_BRICK:
 				 break;
 			case CHARS_BUNKER:
@@ -1185,6 +1203,9 @@ void CInitializationParser::ChangeDimValue(SpaceCoords Dim, double Value)
 	switch (CharType)
 	{
 	case CHARS_BONUS:
+		GenericCharacter = defaultBonus;
+		break;
+	case CHARS_BOSS:
 		GenericCharacter = defaultBonus;
 		break;
 	case CHARS_BRICK:

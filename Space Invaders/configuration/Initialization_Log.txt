@@ -368,6 +368,34 @@ Start tag: MESH
 Text: boss.3ds
 End tag: MESH
 Text: 
+
+        
+Start tag: MISILS
+Initialization parser error: Token MISILS not allowed in a CHARACTER group.
+Text: 50
+End tag: MISILS
+Initialization parser error: MISILS clossing tag without correspondent opening tag in a CHARACTER
+Text: 
+        
+Start tag: ARMS
+Initialization parser error: Token ARMS not allowed in a CHARACTER group.
+Text: 4
+End tag: ARMS
+Initialization parser error: ARMS clossing tag without correspondent opening tag in a CHARACTER
+Text: 
+        
+Start tag: FUEL
+Initialization parser error: Token FUEL not allowed in a CHARACTER group.
+Text: 550
+End tag: FUEL
+Initialization parser error: FUEL clossing tag without correspondent opening tag in a CHARACTER
+Text: 
+        
+Start tag: DOCKS
+Initialization parser error: Token DOCKS not allowed in a CHARACTER group.
+End tag: DOCKS
+Initialization parser error: DOCKS clossing tag without correspondent opening tag in a CHARACTER
+Text: 
     
 End tag: CHARACTER
 Text: 

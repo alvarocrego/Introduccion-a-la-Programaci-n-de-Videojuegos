@@ -10,6 +10,7 @@
 #include <Player.h>
 #include <Navy.h>
 
+#include <Boss.h>
 #include <Ship.h>
 #include <SupplyShip.h>
 #include <CircleShip.h>
@@ -45,6 +46,7 @@ bool					AnimationExist=false;
 UGKS_String				msgAux;
 
 //Default objects that have to be parametrized while being loaded and inserted into the scene graph
+CBoss*			Boss;
 CBunker*		currentBunker;
 CShip*			Ship;
 CSupplyShip*	SShip;
@@ -163,6 +165,7 @@ UGKS_String CLeP_Ani2DTypes[MAX_NUM_ANI_TYPES] =
 *    Updated when the initialization parser is running
 *	 @{
 */
+extern CBoss*			defaultBoss;
 extern CPlayer*			defaultPlayer;
 extern CShip*			defaultShip;
 extern CSupplyShip*		defaultSShip;
@@ -326,6 +329,7 @@ void CLevelReader::BeginParse(DWORD dwAppData, bool &bAbort)
 	ResetState();
 
 	//Initialize default AI
+	defaultBoss->AI = AIManager.GetAI(SIAI_SUPPLYSHIP_DEFAULT);
 	defaultShip->AI = AIManager.GetAI(SIAI_SHIP_DEFAULT);
 	defaultSShip->AI = AIManager.GetAI(SIAI_SUPPLYSHIP_DEFAULT);
 	defaultCShip->AI = AIManager.GetAI(SIAI_CIRCLESHIP_DEFAULT);
@@ -815,6 +819,9 @@ if (bAbort) return;
 					{case CHARS_BONUS:
 						 ///There is no possible explosion for the bonuses. No action performed
 						break;
+					case CHARS_BOSS:
+						Boss->Hit_duration = f;
+						break;
 					case CHARS_BUNKER:
 						currentBunker->Hit_duration = f;
 						break;
@@ -847,6 +854,12 @@ if (bAbort) return;
 					intAux =  atoi(UGKS_string2charstr(rText)); //Health of this given character
 					switch (CLeP_CharType)
 					{
+					case CHARS_BOSS:
+						if (intAux>0)
+							Boss->Health = Boss->MaxHealth = intAux;
+						else if (intAux == CHAR_HEALTH_INFINITE)
+							Boss->Health = Boss->MaxHealth = CHAR_HEALTH_INFINITE;
+						break;
 					case CHARS_BUNKER:
 						 if(intAux>0)
 							currentBunker->Health = currentBunker->MaxHealth = intAux;
@@ -906,6 +919,22 @@ if (bAbort) return;
 			{
 				case CHARS_NAVY:
 					Navy->SetMeshName(rText);	///Ships mesh default
+					break;
+				case CHARS_BOSS:
+					msg = rText;
+					if (msg.compare(defaultBoss->GetMeshName()))
+					{		//return 0 if strings are equal
+						int ind = MeshesManager.AddModel(msg);
+						Boss->IndMesh = ind;
+						Boss->Mesh = MeshesManager.GetMesh(Boss->IndMesh);
+						Boss->SetMeshName(Boss->Mesh->GetFileName());
+					}
+					else
+					{
+						Boss->IndMesh = defaultBoss->IndMesh;
+						Boss->Mesh = defaultBoss->Mesh;
+						Boss->SetMeshName(defaultBoss->GetMeshName());
+					}
 					break;
 				case CHARS_SUPPLYSHIP:
 					msg = rText;
@@ -1038,6 +1067,17 @@ if (bAbort) return;
 				{
 					case CHARS_BONUS:
 						///They are predefined by the program. No allowed yet in this version.
+						break;
+					case CHARS_BOSS:
+						//Create a new node to set inside the scene graph
+						Boss = (CBoss*)CharacterPool->get(CHARS_BOSS, CBS_NO_BOSS);
+						*Boss = *defaultBoss;
+						Boss->AI_Init();
+						Boss->OutEvent(CBS_BORNING);	//v 0->1
+
+						Boss->InitTransforms();
+
+						SceneGraph.AddCharacter(Boss);
 						break;
 					case CHARS_BUNKER:
 						///The bunkers are already just created by default. There is an array of bunkers. No action performed

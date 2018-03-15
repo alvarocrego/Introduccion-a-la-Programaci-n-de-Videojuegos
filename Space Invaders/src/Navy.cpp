@@ -303,7 +303,7 @@ void CNavy::SetRenderPeriod()
 		switch (C->Type)
 		{
 		case CHARS_BOSS:
-			C->Timer[CS_RND_PERIOD].SetAlarm(RP);
+			C->Timer[CBS_RND_PERIOD].SetAlarm(RP);
 			break;
 		case CHARS_SHIP:
 			C->Timer[CS_RND_PERIOD].SetAlarm(RP);
