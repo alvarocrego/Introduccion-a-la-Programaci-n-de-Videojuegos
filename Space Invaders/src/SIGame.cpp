@@ -372,6 +372,8 @@ void CSIGame::Init(void)
 	SetDefaultDirectories();
 
 	Timer.resize(CSIG_MAX_TIMERS);
+
+	f = false;
 }
 
 bool CSIGame::OutEvent(CSIG_GAME_TRANSITIONS EventName){ return AI->outEvent(CSIG_NameTransition[EventName], NULL, this); }
@@ -814,8 +816,20 @@ void CSIGame::Update ()		//Update the world in continuous simulation.
 				Won = false;
 				break;
 			}
+		case CHARS_BOSS:
+			if (f == false) {
+				f = true;
+				std::stringstream ss;
+				ss << "LOADED CHARACTER BOSS: \n";
+				ss << "\tHealth=" << DefaultChar->Health << "\n";
+				CString msg = UGKS_string2CString(ss.str());
+				MessageBox(NULL, msg, L"Resultado parser", MB_OK);
+					
+			}
 		}
 	}
+
+
 
 	if (Won){
 		NextRenderMode = RenderMode;

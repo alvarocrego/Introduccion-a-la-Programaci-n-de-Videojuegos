@@ -1,0 +1,561 @@
+﻿  Application.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkmswindow.h(71): warning C4458: la declaración de 'Title' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkbasicwindow.h(43): note: vea la declaración de 'CBWindow::Title'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\api\application.cpp(81): warning C4458: la declaración de 'Stream' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\api\application.h(71): note: vea la declaración de 'CApplication::Stream'
+  TextureAnimation.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+  Background.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(152): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  GUI.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(152): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkmswindow.h(71): warning C4458: la declaración de 'Title' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkbasicwindow.h(43): note: vea la declaración de 'CBWindow::Title'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(82): warning C4018: '>=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(95): warning C4018: '>': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'aspectRatio': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'fov': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'top': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'bottom': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'right': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'left': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(282): warning C4189: 'tx': la variable local se ha inicializado pero no se hace referencia a ella
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(788): warning C4456: la declaración de 'temp' oculta la declaración local anterior
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(767): note: vea la declaración de 'temp'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(803): warning C4456: la declaración de 'temp' oculta la declaración local anterior
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(767): note: vea la declaración de 'temp'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(855): warning C4456: la declaración de 'temp' oculta la declaración local anterior
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(767): note: vea la declaración de 'temp'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(1332): warning C4800: 'GLboolean': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(1333): warning C4800: 'GLboolean': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(1328): warning C4101: 'posY': variable local sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(1328): warning C4101: 'posX': variable local sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\gui.cpp(1330): warning C4101: 'Text': variable local sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\opengl\gl\include\gl\glut.h(486): warning C4505: 'glutInit_ATEXIT_HACK': la función local a la que no se hace referencia se ha quitado
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\opengl\gl\include\gl\glut.h(503): warning C4505: 'glutCreateWindow_ATEXIT_HACK': la función local a la que no se hace referencia se ha quitado
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\opengl\gl\include\gl\glut.h(549): warning C4505: 'glutCreateMenu_ATEXIT_HACK': la función local a la que no se hace referencia se ha quitado
+  InitializationParser.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\parsers\ugkhtmlparser.h(202): warning C4100: 'hFile': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkmswindow.h(71): warning C4458: la declaración de 'Title' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkbasicwindow.h(43): note: vea la declaración de 'CBWindow::Title'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(82): warning C4018: '>=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(95): warning C4018: '>': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'aspectRatio': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'fov': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'top': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'bottom': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'right': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'left': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(471): warning C4458: la declaración de 'folder' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(443): note: vea la declaración de 'UGK::CKeyboard::folder'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'On': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'Token': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\initializationparser.cpp(933): warning C4063: case '1' no es un valor válido para la instrucción switch de la enumeración 'GCHARS_CharacterType'
+  c:\users\alcre\desktop\ipv\modificado\space invaders\include\gamecharacters.h(21): note: vea la declaración de 'GCHARS_CharacterType'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\initializationparser.cpp(1259): warning C4100: 'Character': parámetro formal sin referencia
+  LevelParser.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\parsers\ugkhtmlparser.h(202): warning C4100: 'hFile': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkmswindow.h(71): warning C4458: la declaración de 'Title' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkbasicwindow.h(43): note: vea la declaración de 'CBWindow::Title'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(82): warning C4018: '>=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(95): warning C4018: '>': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'aspectRatio': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'fov': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'top': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'bottom': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'right': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'left': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(471): warning C4458: la declaración de 'folder' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(443): note: vea la declaración de 'UGK::CKeyboard::folder'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'On': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'Token': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(225): warning C4459: la declaración de 'Ship' oculta la declaración global
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(51): note: vea la declaración de 'Ship'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(698): warning C4389: '==': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1245): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1481): warning C4239: se ha utilizado una extensión no estándar: 'argumento': conversión de 'UGK::Vector' a 'UGK::Vector &'
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1481): note: Una referencia que no es const solamente se puede enlazar a un valor L
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1557): warning C4239: se ha utilizado una extensión no estándar: 'argumento': conversión de 'UGK::Vector' a 'UGK::Vector &'
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1557): note: Una referencia que no es const solamente se puede enlazar a un valor L
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1632): warning C4239: se ha utilizado una extensión no estándar: 'argumento': conversión de 'UGK::Vector' a 'UGK::Vector &'
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1632): note: Una referencia que no es const solamente se puede enlazar a un valor L
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\levelparser.cpp(1146): warning C4063: case '1' no es un valor válido para la instrucción switch de la enumeración 'GCHARS_CharacterType'
+  c:\users\alcre\desktop\ipv\modificado\space invaders\include\gamecharacters.h(21): note: vea la declaración de 'GCHARS_CharacterType'
+  Main.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkmswindow.h(71): warning C4458: la declaración de 'Title' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkbasicwindow.h(43): note: vea la declaración de 'CBWindow::Title'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(471): warning C4458: la declaración de 'folder' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(443): note: vea la declaración de 'UGK::CKeyboard::folder'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'On': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'Token': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\main.cpp(134): warning C4389: '!=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\main.cpp(159): warning C4189: 'hWndButtom': la variable local se ha inicializado pero no se hace referencia a ella
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\main.cpp(210): warning C4459: la declaración de 'hFind' oculta la declaración global
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\main.cpp(53): note: vea la declaración de 'hFind'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\main.cpp(309): warning C4189: 'firstTime': la variable local se ha inicializado pero no se hace referencia a ella
+  Navy.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\parsers\ugkhtmlparser.h(202): warning C4100: 'hFile': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(82): warning C4018: '>=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(95): warning C4018: '>': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\navy.cpp(109): warning C4459: la declaración de 'MeshesManager' oculta la declaración global
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\navy.cpp(23): note: vea la declaración de 'MeshesManager'
+  Player.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(152): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(471): warning C4458: la declaración de 'folder' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(443): note: vea la declaración de 'UGK::CKeyboard::folder'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'On': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'Token': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\player.cpp(154): warning C4459: la declaración de 'Game' oculta la declaración global
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\player.cpp(55): note: vea la declaración de 'Game'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\player.cpp(437): warning C4101: 'l': variable local sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\player.cpp(807): warning C4100: 'pMsg': parámetro formal sin referencia
+  SICharactersFactory.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(152): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+  SIGame.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\parsers\ugkhtmlparser.h(202): warning C4100: 'hFile': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(471): warning C4458: la declaración de 'folder' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(443): note: vea la declaración de 'UGK::CKeyboard::folder'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'On': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'Token': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(506): warning C4244: 'argumento': conversión de 'const WPARAM' a 'char'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(507): warning C4244: 'argumento': conversión de 'const WPARAM' a 'char'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkmswindow.h(71): warning C4458: la declaración de 'Title' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\graphics\window\ugkbasicwindow.h(43): note: vea la declaración de 'CBWindow::Title'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(82): warning C4018: '>=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(95): warning C4018: '>': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'aspectRatio': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'fov': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'top': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'bottom': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'right': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'left': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(565): warning C4458: la declaración de 'Type' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(207): note: vea la declaración de 'UGK::CCharacter::Type'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(825): warning C4458: la declaración de 'msg' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\include\sigame.h(185): note: vea la declaración de 'CSIGame::msg'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(908): warning C4100: 'lpParam': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(1048): warning C4100: 'lpParam': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(1257): warning C4458: la declaración de 'f' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\include\sigame.h(127): note: vea la declaración de 'CSIGame::f'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(1365): warning C4458: la declaración de 'f' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\include\sigame.h(127): note: vea la declaración de 'CSIGame::f'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(1514): warning C4458: la declaración de 'f' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\include\sigame.h(127): note: vea la declaración de 'CSIGame::f'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(1625): warning C4101: 'hThread': variable local sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(1626): warning C4101: 'dwThreadId': variable local sin referencia
+  SIKeyboard.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(152): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(471): warning C4458: la declaración de 'folder' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(443): note: vea la declaración de 'UGK::CKeyboard::folder'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'On': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugkhw\include\ugkkeyboard.h(478): warning C4100: 'Token': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(82): warning C4018: '>=': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\scenegraph\ugkscenegraphugk.h(95): warning C4018: '>': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'aspectRatio': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(177): warning C4100: 'fov': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_far': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: '_near': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'top': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'bottom': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'right': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcamera.h(189): warning C4100: 'left': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\opengl\gl\include\gl\glut.h(486): warning C4505: 'glutInit_ATEXIT_HACK': la función local a la que no se hace referencia se ha quitado
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\opengl\gl\include\gl\glut.h(503): warning C4505: 'glutCreateWindow_ATEXIT_HACK': la función local a la que no se hace referencia se ha quitado
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\opengl\gl\include\gl\glut.h(549): warning C4505: 'glutCreateMenu_ATEXIT_HACK': la función local a la que no se hace referencia se ha quitado
+  Ship.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\parsers\ugkhtmlparser.h(202): warning C4100: 'hFile': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(221): warning C4456: la declaración de 'Msg' oculta la declaración local anterior
+  c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(197): note: vea la declaración de 'Msg'
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(643): warning C4100: 'Ship': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(643): warning C4100: 'args': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(649): warning C4100: 'args': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(655): warning C4100: 'args': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(661): warning C4100: 'args': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\ship.cpp(667): warning C4100: 'args': parámetro formal sin referencia
+  ShootsManager.cpp
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\rttimer.h(88): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimer.h(45): warning C4251: 'cHRTimer::Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimer'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'loops': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(49): warning C4100: 'channel': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugkbasicsound.h(145): warning C4100: 'ticks': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsdl.h(163): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'z': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'y': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'x': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\physics\ugkphysics.h(167): warning C4100: 'angle': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkalgebra.h(288): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(296): warning C4458: la declaración de 'RenderMode' oculta el miembro de clase
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(221): note: vea la declaración de 'UGK::CCharacter::RenderMode'
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\hrt\hrtimermanager.h(52): warning C4251: 'cHRTimerManager::Timers': class 'std::vector<cHRTimer,std::allocator<_Ty>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'cHRTimerManager'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+  c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\ugkcharacter.h(152): note: vea la declaración de 'std::vector<cHRTimer,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cHRTimer
+          ]
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(148): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\ugk\include\sound\ugksoundsmanager.h(158): warning C4018: '<': no coinciden signed/unsigned
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\shootsmanager.cpp(177): warning C4100: 'pMsg': parámetro formal sin referencia
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\shootsmanager.cpp(188): warning C4101: 'i': variable local sin referencia
+  Generando código...
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(2048): warning C4701: posiblemente se utilizó la variable local 'UpdT' sin inicializar
+c:\users\alcre\desktop\ipv\modificado\space invaders\src\sigame.cpp(2049): warning C4701: posiblemente se utilizó la variable local 'RndT' sin inicializar
+c:\users\alcre\desktop\ipv\modificado\space invaders\lib\litehtml\litehtmlattributes.h(1000): warning C4706: asignación en la expresión condicional
+c:\users\alcre\desktop\ipv\modificado\space invaders\api\application.cpp(109): warning C4702: no se puede tener acceso al código
+Application.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/OPT:LBR'
+GUIGadget.obj : warning LNK4006: "float * red" (?red@@3PAMA) ya se definió en GUI.obj; segunda definición omitida
+GUIGadget.obj : warning LNK4006: "float * gren" (?gren@@3PAMA) ya se definió en GUI.obj; segunda definición omitida
+GUIGadget.obj : warning LNK4006: "float * yellow" (?yellow@@3PAMA) ya se definió en GUI.obj; segunda definición omitida
+GUIGadget.obj : warning LNK4006: "float * blue" (?blue@@3PAMA) ya se definió en GUI.obj; segunda definición omitida
+SIGame.obj : warning LNK4006: "class UGK::CCharactersPool * CharacterPool" (?CharacterPool@@3PAVCCharactersPool@UGK@@A) ya se definió en Player.obj; segunda definición omitida
+UGKHWd.lib(UGKKeyboard.obj) : warning LNK4006: "public: void __thiscall UGK::CKeyboard::ClearTokensKeys(void)" (?ClearTokensKeys@CKeyboard@UGK@@QAEXXZ) ya se definió en SIGame.obj; segunda definición omitida
+UGKHWd.lib(UGKKeyboard.obj) : warning LNK4006: "public: bool __thiscall UGK::CKeyboard::KeyWait(unsigned char)" (?KeyWait@CKeyboard@UGK@@QAE_NE@Z) ya se definió en Main.obj; segunda definición omitida
+UGKHWd.lib(UGKKeyboard.obj) : warning LNK4006: "public: void __thiscall UGK::CKeyboard::SetActionKeys(unsigned char *,unsigned char)" (?SetActionKeys@CKeyboard@UGK@@QAEXPAEE@Z) ya se definió en SIGame.obj; segunda definición omitida
+UGKHWd.lib(UGKKeyboard.obj) : warning LNK4006: "public: void __thiscall UGK::CKeyboard::SetDelay(float *)" (?SetDelay@CKeyboard@UGK@@QAEXPAM@Z) ya se definió en SIGame.obj; segunda definición omitida
+UGKHWd.lib(UGKKeyboard.obj) : warning LNK4006: "public: void __thiscall UGK::CKeyboard::Update(void)" (?Update@CKeyboard@UGK@@QAEXXZ) ya se definió en Main.obj; segunda definición omitida
+UPVGameKerneld.lib(UGKKeyboardParser.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > aux" (?aux@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) ya se definió en Main.obj; segunda definición omitida
+     Creando biblioteca C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\SI.lib y objeto C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\SI.exp
+C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\SI.exe : warning LNK4088: la imagen se está generando debido a la opción /FORCE; quizá la imagen no se pueda ejecutar
+RTDeskEngined.lib(RTDeskEngine.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskEngine.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskEntity.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskEntity.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskMsg.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskMsg.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskMsgPool.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskMsgPool.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskMsgPoolManager.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskMsgPoolManager.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskList.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskList.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskMsgDispatcher.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskMsgDispatcher.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+RTDeskEngined.lib(RTDeskTimers.obj) : warning LNK4099: no se encontró PDB 'RTDeskEngine.pdb' con 'RTDeskEngined.lib(RTDeskTimers.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\RTDeskEngine.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKSceneGraphd.lib(UGKSceneGraphUGK.obj) : warning LNK4099: no se encontró PDB 'UGKSceneGraph.pdb' con 'UGKSceneGraphd.lib(UGKSceneGraphUGK.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKSceneGraph.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKSceneGraphd.lib(UGKHTMLReader.obj) : warning LNK4099: no se encontró PDB 'UGKParser.pdb' con 'UGKSceneGraphd.lib(UGKHTMLReader.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKParser.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKSceneGraphd.lib(UGKHTMLParser.obj) : warning LNK4099: no se encontró PDB 'UGKParser.pdb' con 'UGKSceneGraphd.lib(UGKHTMLParser.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKParser.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKSceneGraphd.lib(UGKDefaultHTMLLabels.obj) : warning LNK4099: no se encontró PDB 'UGKParser.pdb' con 'UGKSceneGraphd.lib(UGKDefaultHTMLLabels.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKParser.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKAudioHardware.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKAudioHardware.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKDeviceManager.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKDeviceManager.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKGameController.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKGameController.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKGraphicsCard.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKGraphicsCard.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKHardware.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKHardware.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKJoystick.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKJoystick.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKKeyboard.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKKeyboard.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKMouse.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKMouse.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UGKHWd.lib(UGKWebCam.obj) : warning LNK4099: no se encontró PDB 'UGKHW.pdb' con 'UGKHWd.lib(UGKWebCam.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UGKHW.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(AIManager.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(AIManager.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(FSM.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(FSM.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(FSMParser.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(FSMParser.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(State.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(State.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(CBBPoint.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(CBBPoint.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(CollisionDetect.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(CollisionDetect.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(Quadtree.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(Quadtree.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKglError.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKglError.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKGLWindow.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKGLWindow.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKMSWindow.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKMSWindow.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKLanguage.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKLanguage.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKLanguageParser.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKLanguageParser.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKLanguages_ISO639.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKLanguages_ISO639.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKGLTexture.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKGLTexture.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKMesh3D.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKMesh3D.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKMeshManager.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKMeshManager.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKModel_3DS.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKModel_3DS.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKCharactersFactory.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKCharactersFactory.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKCharactersPool.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKCharactersPool.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKDeviceParser.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKDeviceParser.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKKeyboardParser.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKKeyboardParser.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKBasicSound.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKBasicSound.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKSoundsManager.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKSoundsManager.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKSoundSystem.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKSoundSystem.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKTexture.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKTexture.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKTexturesManager.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKTexturesManager.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKAlgebra.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKAlgebra.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKCamera.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKCamera.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKCharacter.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKCharacter.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKLog.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKLog.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKScore.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKScore.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+UPVGameKerneld.lib(UGKString.obj) : warning LNK4099: no se encontró PDB 'UPVGameKernel.pdb' con 'UPVGameKerneld.lib(UGKString.obj)' o en 'C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\UPVGameKernel.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+  SI.vcxproj -> C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\SI.exe
+  SI.vcxproj -> C:\Users\alcre\Desktop\IPV\Modificado\Space Invaders\Debug\SI.pdb (Full PDB)

@@ -124,7 +124,7 @@ class CSIGame: public CGame
 	void LoadGame		(UGKS_String  filename, UGKS_String  folder);
 
 public:
-
+	bool f;
 		//Music Management
 	UGKS_String 		CurrentMusic,
 						music_affichee,
